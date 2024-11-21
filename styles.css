@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item:hover{
+    color: green;
+}
+
+.functions:hover{
+    filter: brightness(95%);
+}
+
+a.functions:hover{
+    color: darkgray;
+}
+
+#ingbutton{
+    background-color: #fff;
+}
+
+#unetebutton{
+    background-color: black;
+    color: #fff;
+}

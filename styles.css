@@ -340,3 +340,47 @@ nav > a{
 #rights #p2{
     font-size: 10px;
 }
+
+
+/*rewards*/
+
+#rewards-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#fijo{
+    box-sizing: inherit;
+    padding: 5%;
+    flex-direction: column;
+    background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
+    color: white;
+    width: 60%;
+    height: 90vh;
+}
+
+#fijo img{
+    width: 50%;
+    height: auto;
+}
+
+#fijo h2{
+    font-size: 26pt;
+    font-weight: 300;
+}
+
+#scroll{
+    box-sizing: inherit;
+    flex-direction: column;
+    padding: 3%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#scroll h2{
+    font-weight: 300;
+    font-size: 22px;
+}

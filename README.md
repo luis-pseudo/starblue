@@ -28,4 +28,4 @@ al agregar la imagen de la mano usé un justify-self y align-self con valor flex
 
 ## commit "inner content arranged"
 al intentar acomodar el contenido de dentro de los contenedores toda la pagina se deshizo, mas que nada por querer arreglar el alto del contenedor fixed y establecer el header como fixed, y al tener tantos problemas con el header, lo cambié por sticky y se arregló, solo falta ver que siga funcionando cuando se haga scroll
-!(avance)[https://i.imgur.com/h0mFmD0.png]
+![avance](https://i.imgur.com/h0mFmD0.png)

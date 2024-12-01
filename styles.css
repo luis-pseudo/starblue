@@ -348,17 +348,19 @@ nav > a{
     display: flex;
     flex-direction: row;
     width: 100%;
-    box-sizing: border-box;
 }
 
 #fijo{
-    box-sizing: inherit;
-    padding: 5%;
+    display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    width: 40%;
+    position: fixed;
     background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
     color: white;
-    width: 60%;
-    height: 90vh;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 #fijo img{
@@ -372,9 +374,9 @@ nav > a{
 }
 
 #scroll{
-    box-sizing: inherit;
+    display: inherit;
     flex-direction: column;
-    padding: 3%;
+    margin-left: 40%;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -383,4 +385,13 @@ nav > a{
 #scroll h2{
     font-weight: 300;
     font-size: 22px;
+}
+
+#handbg{
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+    justify-self: flex-end;
+    position: relative;
+    top: 60px;
 }

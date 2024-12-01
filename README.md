@@ -25,3 +25,7 @@ a partir de este entregable comencé a construir la página de rewards, comentar
 ## commit "well arranged"
 en este commit finalmente logré organizar las 2 secciones principales para que dividan la pantalla, a la izquierda le puse "position: fixed;" aregué algunos elementos para rellenar.
 al agregar la imagen de la mano usé un justify-self y align-self con valor flex-end, pero la imagen flotaba un poco antes de llegar al final de la pagina, así que usé un position:relative; con top:10vh; y se puso al final
+
+## commit "inner content arranged"
+al intentar acomodar el contenido de dentro de los contenedores toda la pagina se deshizo, mas que nada por querer arreglar el alto del contenedor fixed y establecer el header como fixed, y al tener tantos problemas con el header, lo cambié por sticky y se arregló, solo falta ver que siga funcionando cuando se haga scroll
+!(avance)[https://i.imgur.com/h0mFmD0.png]

@@ -393,5 +393,5 @@ nav > a{
     align-self: flex-end;
     justify-self: flex-end;
     position: relative;
-    top: 60px;
+    top: 10vh;
 }

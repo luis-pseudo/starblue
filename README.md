@@ -17,3 +17,11 @@ también incluyo capturas de partes del código
 
 ## css
 ![vista previa](https://i.imgur.com/zIeinvA.png)
+
+
+# entregable 4
+a partir de este entregable comencé a construir la página de rewards, comentaré los commits que haga a partir de este momento
+
+## commit "well arranged"
+en este commit finalmente logré organizar las 2 secciones principales para que dividan la pantalla, a la izquierda le puse "position: fixed;" aregué algunos elementos para rellenar.
+al agregar la imagen de la mano usé un justify-self y align-self con valor flex-end, pero la imagen flotaba un poco antes de llegar al final de la pagina, así que usé un position:relative; con top:10vh; y se puso al final

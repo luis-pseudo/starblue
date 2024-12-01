@@ -14,7 +14,6 @@
 }
 
 body{
-    min-width: 350px;
     margin: 0;
     padding: 0;
 }
@@ -29,6 +28,9 @@ header{
     align-items: center;
     justify-content: center;
     box-shadow: 0 3px 3px rgba(0,0,0,.1);
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 nav{
@@ -103,6 +105,7 @@ nav > a{
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 #ingbutton{
@@ -348,19 +351,23 @@ nav > a{
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 100%;
 }
 
 #fijo{
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     width: 40%;
+    height: 110vh;
     position: fixed;
     background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
     color: white;
-    height: 100%;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 #fijo img{
@@ -388,10 +395,40 @@ nav > a{
 }
 
 #handbg{
+    position: relative;
+    z-index: -1;
+    top: 5%;
     margin: 0;
     padding: 0;
     align-self: flex-end;
     justify-self: flex-end;
-    position: relative;
-    top: 10vh;
+    width: 43%;
+    height: 45%;
+}
+
+#fijo #btns{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+
+}
+
+#rewards-content .button{
+    height: 20px;
+}
+
+#rewards-content #ingbutton{
+    background-color: transparent;
+}
+
+#rewards-content #ingbutton:hover{
+    color: #008248;
+    border-color: #008248;
+}
+
+#rewards-content #unetebutton{
+    background-color: white;
+    color: black;
+    border-color: white;
 }

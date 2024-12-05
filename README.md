@@ -29,3 +29,16 @@ al agregar la imagen de la mano usé un justify-self y align-self con valor flex
 ## commit "inner content arranged"
 al intentar acomodar el contenido de dentro de los contenedores toda la pagina se deshizo, mas que nada por querer arreglar el alto del contenedor fixed y establecer el header como fixed, y al tener tantos problemas con el header, lo cambié por sticky y se arregló, solo falta ver que siga funcionando cuando se haga scroll
 ![avance](https://i.imgur.com/ffvAj7B.png)
+
+## commit "rewards page finished" (entregable)
+este es el ultimo commit para el entregable 4, donde he concluido la construccion de la página de rewards.
+esta pagina tuvo 1 detalle, en mitad de la página origianl, hay una lista de elementos con su propio estilo de numerado, quise replicarlo pero aunque intenté con bastantes metodos como ::marker, ::after etc. no logré que ni siquiera los números se observaran, la verdad no comprendo que fue lo que paso con eso así que tuve que dejarlo asi.
+
+### mi pagina:
+![avance](https://i.imgur.com/JtwsuSQ.png)
+
+### pagina original:
+![avance](https://i.imgur.com/XY8xQtW.png)
+
+### vista previa css
+![css](https://i.imgur.com/vRjeRTo.png)

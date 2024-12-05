@@ -27,6 +27,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: white;
     box-shadow: 0 3px 3px rgba(0,0,0,.1);
     position: sticky;
     top: 0;
@@ -381,17 +382,32 @@ nav > a{
 }
 
 #scroll{
-    display: inherit;
+    display: flex;
     flex-direction: column;
     margin-left: 40%;
     text-align: center;
-    justify-content: center;
     align-items: center;
+    line-height: 1.5;
+}
+
+.rewardscontent-part{
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.rewardscontent-part h1{
+    font-weight: 600;
 }
 
 #scroll h2{
     font-weight: 300;
     font-size: 22px;
+}
+
+#scroll h3{
+    font-weight: normal;
 }
 
 #handbg{
@@ -431,4 +447,174 @@ nav > a{
     background-color: white;
     color: black;
     border-color: white;
+}
+
+.rewards-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.rewards-items img{
+    width: 150px;
+    height: auto;
+}
+
+.rewards-items p{
+    box-sizing: border-box;
+    width: 150px;
+    height: auto;
+    padding: 0% 2%;
+}
+
+.contrast{
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(241, 240, 235);
+    line-height: 1.2;
+}
+
+.contrast img{
+    width: 30vw;
+    height: auto;
+}
+
+.contrast p{
+    line-height: 1.4;
+    font-weight: 600;
+    margin-bottom: 5vh;
+}
+
+.rewardslist{
+    margin: 0;
+    padding: 5%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: flex-start;
+    list-style-type: decimal;
+}
+
+.rewardslist li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+    width: 95%;
+    margin-bottom: 5vh;
+    list-style-type: decimal;
+}
+
+.rewardslist img{
+    width: 35%;
+    margin-right: 2%;
+}
+
+.contrast-wrapper{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+.contrast-wrapper img{
+    height: 18vh;
+    width: auto;
+}
+
+.contrast-wrapper p{
+    padding: 0% 2%;
+    text-align: center;
+    font-weight: 600;
+    height: auto;
+    max-height: 18vh;
+    width: 9vw;
+    text-align: start;
+}
+
+.contrast .star{
+    width: 8%;
+    height: auto;
+}
+
+.contrast-wrapper2{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0% 10%;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#contrast-wrapper2-text{
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    width: 43%;
+    font-size: 1.1em;
+    justify-self: flex-start;
+}
+
+.contrast-wrapper2 img{
+    margin: 0;
+    padding: 0;
+    width: 55%;
+    height: auto;
+    justify-self: flex-end;
+    align-self: center;
+}
+
+.contentwrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh 0vw;
+    width: 70%;
+}
+
+.contentwrapper p{
+    width: 80%;
+}
+
+.contentwrapper-apps{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.contrast-text{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    text-align: start;
+    justify-content: center;
+}
+
+.contrast-text h2{
+    font-weight: 700;
+}
+
+.contrast-text p{
+    font-weight: 300;
+    margin: 5% 0;
 }

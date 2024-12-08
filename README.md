@@ -62,3 +62,9 @@ este es el primer y único commit para este entregable, osea que hacer esta pág
 
 ## commit "pages update forcing"
 despues de hacer el commit anterior me di cuenta que no habia agregado la href hacia la pagina de menu desde el index, asi que la agregué e hice un commit pero parece no haberse subido al pages aunque si se actualizó en github, es por eso que estoy haciendo otro commit sin cambios en el código realmente, esperando que se arregle
+
+## commit "footer fixed"
+se arregló la href, pero me di cuenta que el footer estaba dentro de una seccion a la que no pertenecia, vi el codigo y todo se veia bien hasta que me di cuenta que me falto una etiqueda de cierre de un section y por eso la pagina lo interpretaba dentro de esa section, asi que en este commit arreglo ese error.
+
+## commit "pages forcing again"
+de nuevo no se subio el cambio a pages pero a github si, tuve que hacer otro commit de nuevo

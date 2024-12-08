@@ -59,3 +59,6 @@ este es el primer y único commit para este entregable, osea que hacer esta pág
 
 ### css:
 ![codepreview](https://i.imgur.com/pyjESG2.png)
+
+## commit "pages update forcing"
+despues de hacer el commit anterior me di cuenta que no habia agregado la href hacia la pagina de menu desde el index, asi que la agregué e hice un commit pero parece no haberse subido al pages aunque si se actualizó en github, es por eso que estoy haciendo otro commit sin cambios en el código realmente, esperando que se arregle

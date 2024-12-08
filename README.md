@@ -42,3 +42,20 @@ esta pagina tuvo 1 detalle, en mitad de la página origianl, hay una lista de el
 
 ### vista previa css
 ![css](https://i.imgur.com/vRjeRTo.png)
+
+# entregable 5
+a partir de aqui comienzo a hacer la página de menu, que relamente fue muy facil, mas de lo que esperaba
+dividi la pagina en una seccion la cual contiene subsecciones que a su vez, contienen items del menu.
+todos estos elementos fueron acomodados con flexbox, que fue de mucha ayuda y de adapta decentemente a los tamaños de pantalla gracias a que usé solamente unidades relativas.
+
+## commit "menu added"
+este es el primer y único commit para este entregable, osea que hacer esta página solo me llevo un commit.
+
+### mi pagina:
+![mipagina](https://i.imgur.com/bRkaOMT.png)
+
+### pagina original:
+![pagoriginal](https://i.imgur.com/U3aiT9H.png)
+
+### css:
+![codepreview](https://i.imgur.com/pyjESG2.png)

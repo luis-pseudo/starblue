@@ -68,3 +68,19 @@ se arregló la href, pero me di cuenta que el footer estaba dentro de una seccio
 
 ## commit "pages forcing again"
 de nuevo no se subio el cambio a pages pero a github si, tuve que hacer otro commit de nuevo
+
+# entregable 6
+aqui es donde comienzo a adaptar las paginas a un estilo portrait y hacerlas responsivas con media queries
+
+## commit "responsive index done"
+en este commit finalicé la adaptación a dispositivos móviles de la página index.
+usando media queries cambie algunos estilos de algunos elementos, por ejemplo, oculté ciertos elementos usando display: none; o hice aparecer algunos otros que no se veían por tener esa propiedad. cambié algunas mediciones que estaban en pixeles y las cambie por unidades de medida relativas como porcentaje o vw y vh. también cambie algunas horientaciones como flex direction column a row o viceversa.
+
+### mi pagina:
+![mipag](https://i.imgur.com/2vWAVtE.png)
+
+### pagina original:
+![pagoriginal](https://i.imgur.com/7DT41l1.png)
+
+### css:
+![css](https://i.imgur.com/oGW7Z1U.png)

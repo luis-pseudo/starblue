@@ -183,6 +183,9 @@ este es el ultimo commit para esta entrega, ya esta listo el responsivo para mov
 ![css](https://i.imgur.com/DnZ0QED.png)
 
 
+## commit "icons"
+aca solo agrego los links del icono en las paginas para que aparezca el logo de starbucks en la pestaña
+
 
 
 

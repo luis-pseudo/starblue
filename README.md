@@ -143,6 +143,17 @@ otra vez se me olvido agregar lo del commit anterior xddd
 ahora se me olvido linkear la pagina de login en todas las demas en el header asi que en este commit es lo unico q agrego
 
 
+## commit "responsive login page done"
+en este commit agrego la media query para la pagina de login en  movil que fue muy sencillo de hacer, me llevo tal vez alrededor de media hora y no tuve que escribir mucho codigo, la verdad siento que he mejorado mucho en hacer las paginas para que sean adaptativas y que no me cueste cambiarlas en media queries, solo tuve que hacer algunos cambios de tamaño en imagenes, tamaños de fuente y distribucion de contenedores y ya quedó
+
+### mi pagina
+![mipag](https://i.imgur.com/fpVKkbG.png)
+
+### pagina original
+![vnjeusn](https://i.imgur.com/8n8XGL3.png)
+
+### css:
+![css](https://i.imgur.com/KZc8si2.png)
 
 
 ![yo](https://i.imgur.com/QK7hmqa.jpeg)

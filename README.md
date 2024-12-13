@@ -139,5 +139,11 @@ en el commit anterior se me olvido hacerle add a lo que agregue en el readme asi
 ## commit "readme update again !!"
 otra vez se me olvido agregar lo del commit anterior xddd
 
+## commit "login linked"
+ahora se me olvido linkear la pagina de login en todas las demas en el header asi que en este commit es lo unico q agrego
+
+
+
+
 ![yo](https://i.imgur.com/QK7hmqa.jpeg)
 ![yoagain](https://images-ext-1.discordapp.net/external/VhGyqtaXFNshw55Q4p2Bx-4zq0ZNyDr8hlaBeCZ1lfk/https/media.tenor.com/images/eb707bb9c16cce278309b806437de097/tenor.gif?width=92&height=112)

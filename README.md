@@ -84,3 +84,21 @@ usando media queries cambie algunos estilos de algunos elementos, por ejemplo, o
 
 ### css:
 ![css](https://i.imgur.com/oGW7Z1U.png)
+
+
+## commit "responsive rewards done"
+aqui ya termine la pagina de rewards para moviles, esta si fue bastante dificil ya que por haber puesto tantos css inline, tuve muchos problemas para cambiar varios estilos, asi que me costo mucho terminar esta pagina pero fue culpa mia por no haberla hecho bien desde un principio.
+al convertir una pagina a moviles es muy notable el cambio de flex-direction row a column en la mayoria de contenedores.
+
+### mi pagina:
+![mipag](https://i.imgur.com/89jpbL1.png)
+
+### pagina original
+![pagoriginal](https://i.imgur.com/9eMtIRg.png)
+
+### css ;-; :
+![css](https://i.imgur.com/arMxvaU.png)
+
+
+
+![yo](https://i.imgur.com/QK7hmqa.jpeg)

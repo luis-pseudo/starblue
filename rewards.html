@@ -9,17 +9,18 @@
 </head>
 <body>
     <!--nav bar-->
-    <header>
+    <header style="position: sticky; top: 0; z-index: 10;">
         <nav id="nav-left">
-            <a href="index.html"><img id="logo" src="logo.svg" alt="logo"></a>
-            <a href="https://www.starbucks.com.mx/menu" class="menu-item">Menu</a>
-            <a href="https://rewards.starbucks.mx" class="menu-item">Rewards</a>   
+            <a id="logo" href="index.html"><img src="logo.svg" alt="logo"></a>
+            <a href="menu.html" class="menu-item">Menu</a>
+            <a href="rewards.html" class="menu-item">Rewards</a>   
         </nav>
 
         <nav id="nav-right">
             <a href="https://www.starbucks.com.mx/stores" id="localizar" class="functions"><img id="locicon" src="https://icons.iconarchive.com/icons/steve/zondicons/512/Location-icon.png" alt="Location-icon">Localizar tienda</a>
-            <a id="ingbutton" class="button functions" href="https://rewards.starbucks.mx/login">Iniciar Sesión</a>
-            <a id="unetebutton" class="button functions" href="https://rewards.starbucks.mx/register">Únete ahora</a>
+            <a id="ingbutton" class="button functions" href="https://rewards.starbucks.mx/login">Ingresar</a>
+            <a id="unetebutton" class="button functions" href="https://rewards.starbucks.mx/register">Únete</a>
+            <img id="menuimg" src="menu.svg" alt="">
         </nav>
     </header>
 
@@ -30,7 +31,7 @@
             <img src="https://rewards.starbucks.mx/img/title2.png" alt="">
             <h2>Holaaaaa, café gratis</h2>
             <div id="btns">
-                <a class="button" id="ingbutton" href="">Inicia sesión</a>
+                <a class="button" id="ingbutton" href="" >Inicia sesión</a>
                 <a class="button" id="unetebutton" href="">Únete ahora</a>
             </div>
             <img id="handbg" src="https://rewards.starbucks.mx/_next/static/media/bg-section-left-hand.0d6943f4dd00e30428d035564a73c510.png" alt="zahando">
@@ -98,6 +99,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="contrast" style="padding: 2% 25%;">
                 <h2><strong>Tus cafés se convierten en estrellas y recompensas increíbles</strong></h2>
                 <img src="https://rewards.starbucks.mx/img/2023/06/valor-estrella-sbx.png" alt="">
@@ -109,19 +111,19 @@
             <div class="rewardscontent-part" style="margin-bottom: 5vh; margin-top: 2vh; margin-left: 10%; margin-right: 10%;">
                 <span style="line-height: 0.5;"><h1>Obtén estrellas y gana recompensas</h1>
                 <p style="font-size: 1.25rem;">Así es como funciona:</p></span>
-                <div style="display: flex; flex-direction: row;">
+                <div class="pasos" style="display: flex; flex-direction: row;">
                     <ol class="rewardslist">
                         <li><img src="https://rewards.starbucks.mx/img/2023/06/paso-1-movil.png" alt=""><p>Descarga la App y regístrate.</p></li>
-                        <li><img src="https://rewards.starbucks.mx/img/2023/06/paso3.gif" alt="" style="width: 65%;"></li>
+                        <li><img src="https://rewards.starbucks.mx/img/2023/06/paso3.gif" alt="" style="width: 80%;"></li>
                         <li><img src="https://rewards.starbucks.mx/img/2023/06/paso-2-movil.png" alt=""><p>Puedes pagar con tu Starbucks Card, efectivo o tarjeta bancaria.</p></li>
                     </ol>
-                    <img src="https://rewards.starbucks.mx/img/2023/06/chica-sbx.png" alt="" style="align-self: center; justify-self: flex-end; width: 35%; height: auto; margin: 0;">
+                    <img id="refimg" src="https://rewards.starbucks.mx/img/2023/06/chica-sbx.png" alt="" style="align-self: center; justify-self: flex-end; width: 35%; height: auto; margin: 0;">
                 </div>
             </div>
 
-            <iframe style="width: 100%; height: 90vh;" src="https://www.youtube.com/embed/82Tcz85ZdG4?si=aVas9Yk_-ijBj7V1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe id="video" src="https://www.youtube.com/embed/82Tcz85ZdG4?si=aVas9Yk_-ijBj7V1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
-            <div class="contrast" style="padding: 4% 10%;">
+            <div class="contrast" id="contrast2">
                 <h1>Ordena y paga como quieras</h1>
                 <div class="contrast-wrapper">
                     <img class="star" src="https://rewards.starbucks.mx/img/2023/06/estrella.png" alt=""><p>1 estrella por cada $20</p>
@@ -136,7 +138,7 @@
                     <img src="https://rewards.starbucks.mx/img/2023/06/tarjetas-sbx.png" alt="">
                     <p>Colecciona, activa, registra, recarga y paga con tu Starbucks Card favorita.</p>
                 </div>
-                <h3 style="font-weight: 600;">Personaliza tu experiencia con tu Starbucks Card® Favorita</h3>
+                <h3 id="sbcardtitle">Personaliza tu experiencia con tu Starbucks Card® Favorita</h3>
                 <div class="contrast-wrapper2">
                     <div id="contrast-wrapper2-text">
                         <p>Coleccionar y/o regalar Starbucks Card, también te da recompensas</p>
@@ -148,18 +150,18 @@
 
             <div class="contentwrapper">
                 <h1>Una experiencia llena de recompensas y beneficios con tus favoritos</h1>
-                <img style="width: 45%;" src="https://rewards.starbucks.mx/img/2023/06/estrellas-65.gif" alt="">
+                <img src="https://rewards.starbucks.mx/img/2023/06/estrellas-65.gif" alt="">
                 <p>Descarga la app Starbucks México, es una opción de pago sin contacto, cada que vengas paga con ella, acumula estrellas y obtén recompensas.</p>
                 <div class="contentwrapper-apps">
                     <a href=""><img src="https://rewards.starbucks.mx/items/4fe2e05c02a54cec809c3926b2fc1f23.png" alt=""></a>
                     <a href=""><img src="https://rewards.starbucks.mx/items/F9E95B11CA554D399139CE1BEDC36A10.png" alt=""></a>
                 </div>
                 <h4>¡Tus cafés se convierten en estrellas y recompensas increíbles!</h4>
-                <img style="width: 45%;" src="https://rewards.starbucks.mx/img/2023/06/gold-pan.png" alt="">
+                <img id="refimgrec" src="https://rewards.starbucks.mx/img/2023/06/gold-pan.png" alt="">
             </div>
 
-            <div class="contrast" style="flex-direction: row; padding: 5%; justify-content: center;">
-                <img style="width: 45%; height: auto;" src="https://rewards.starbucks.mx/img/2023/06/icono.png" alt="">
+            <div class="contrast" id="contrast3">
+                <img id="refimgcontrast3" src="https://rewards.starbucks.mx/img/2023/06/icono.png" alt="">
                 <div class="contrast-text">
                     <h2>Conoce más</h2>
                     <p>Consulta las preguntas frecuentes <a href="https://rewards.starbucks.mx/faq/rewards">aquí</a></p>
@@ -167,21 +169,21 @@
                 </div>
             </div>
 
-            <img style="align-self: center; justify-self: center; width: 50%; height: auto;" src="https://rewards.starbucks.mx/img/2023/06/logo.png" alt="">
+            <img id="sbrewardsimg" src="https://rewards.starbucks.mx/img/2023/06/logo.png" alt="">
 
             <!--footer-->
             <footer>
-                <section class="upperfooter" style="padding-left: 2%;">
-                    <div class="footerlist" style="justify-self: flex-start; text-align: start;">
-                        <h3>Sobre Nosotros</h3>
+                <section class="upperfooter">
+                    <div class="footerlist">
+                        <div><h3>Sobre Nosotros</h3><img class="dropdown" src="arrow-down.svg" alt=""></div>
                         <ul>
                             <li><a href="https://www.starbucks.com.mx/seccion/trabaja-con-nosotros">Trabaja con nosotros</a></li>
                             <li><a href="https://historias.starbucks.com/es/">Historias Starbucks</a></li>
                         </ul>
                     </div>
 
-                    <div class="footerlist" style="text-align: start;">
-                        <h3>Atención al cliente</h3>
+                    <div class="footerlist">
+                        <div><h3>Atención al cliente</h3><img class="dropdown" src="arrow-down.svg" alt=""></div>
                         <ul>
                             <li><a href="https://rewards.starbucks.mx/atencion-cliente">Contáctanos</a></li>
                             <li><a href="https://alsea.interfactura.com/RegistroDocumento.aspx?opc=Starbucks">Facturas Electrónicas</a></li>
@@ -198,19 +200,20 @@
                     </div>
                     <div id="refs">
                         <a href="https://www.starbucks.com.mx/articulo/accesibilidad-web">Accesibilidad Web</a>
-                        |
+                        <span>|</span>
                         <a href="https://www.starbucks.com.mx/articulo/aviso-de-privacidad">Aviso de Privacidad</a>
-                        |
+                        <span>|</span>
                         <a href="https://www.starbucks.com.mx/seccion/boletines">Boletines</a>
-                        |
+                        <span>|</span>
                         <a href="https://www.starbucks.com.mx/articulo/condiciones-de-uso-1">Condiciones de uso</a>
-                        |
+                        <span>|</span>
                         <a href="https://www.starbucks.com.mx/articulo/mapa-del-sitio">Mapa del sitio</a>
-                        |
+                        <span>|</span>
                         <a href="https://www.starbucks.com.mx/articulo/preferencias-sobre-cookie">Preferencias sobre cookies</a>
                     </div>
                     <div id="rights">
                         <p id="p1">Ⓒ 2024. Starbucks Cofee Company. Reservados todos los derechos</p>
+                        <p id="p2">mx | prod | 5efee83dd153c6a598a78f0bf36e131f98ed3eba | 04/11/2024-05:34:23:403</p>
                     </div>
                 </section>
             </footer>

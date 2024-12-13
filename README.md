@@ -170,5 +170,21 @@ al final del formulario no agregué las otras opicones como la fecha porque no s
 ![css](https://i.imgur.com/ilBsbjd.png)
 
 
+## commit "responsive register page done" (final)
+este es el ultimo commit para esta entrega, ya esta listo el responsivo para moviles de la pagina de registro, que fue lo mas facil que he hecho, me tarde mas copiando y pegando que modificando el codigo, literalmente solo tuve que cambiar 1 propiedad de tamaño porque practicamente ya estaba todo hecho con la de login.
+
+### mi pagina
+![miapg](https://i.imgur.com/9hLRYE2.png)
+
+### pagina original
+![original](blob:https://imgur.com/9a07e790-a29f-42ed-b6e9-1b741857fb28)
+
+### css
+![css](https://i.imgur.com/DnZ0QED.png)
+
+
+
+
+
 ![yo](https://i.imgur.com/QK7hmqa.jpeg)
 ![yoagain](https://images-ext-1.discordapp.net/external/VhGyqtaXFNshw55Q4p2Bx-4zq0ZNyDr8hlaBeCZ1lfk/https/media.tenor.com/images/eb707bb9c16cce278309b806437de097/tenor.gif?width=92&height=112)

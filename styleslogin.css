@@ -420,7 +420,7 @@ footer{
     color: #999;
     line-height: 0.5;
     margin-top: 30px;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     text-align: center;
 }

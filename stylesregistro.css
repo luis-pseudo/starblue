@@ -184,7 +184,7 @@ nav > a{
 
 .loginform{
     width: 45%;
-    height: auto;
+    height: auto; 
     display: flex;
     flex-direction: column;
     margin: 3% 5%;
@@ -241,20 +241,7 @@ nav > a{
     color: #495057;
 }
 
-#forgotpassword{
-    width: 40%;
-    background-color: transparent;
-    border-color: transparent;
-    color: #006341;
-    font-size: 0.9em;
-}
-
-#forgotpassword:hover{
-    background-color: #d5e0d8;
-    color: #008247;
-}
-
-#loginbutton{
+#registerbutton{
     background-color: #00a862;
     border: #00a862;
     color: white;
@@ -280,56 +267,6 @@ nav > a{
     color: white;
     letter-spacing: 0.15em;
 }
-
-.unetecontainer{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 3%;
-}
-
-.unetecontainer h1{
-    font-size: 1.4em;
-    margin-bottom: 1vh;
-}
-
-.unetecontainer p{
-    width: 60%;
-    font-size: 1.2em;
-    margin-top: 0;
-}
-
-.unetecontainer .wrapper{
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.unetecontainer .wrapper img{
-    width: 50%;
-    height: auto;
-}
-
-.unetecontainer .wrapper a{
-    width: 30%;
-    height: auto;
-    font-size: 1.3rem;
-    padding: 3%;
-    text-align: center;
-    border: 1px solid #008248;
-    border-radius: 50px;
-    color: #008248;
-}
-
-.unetecontainer .wrapper a:hover{
-    background-color: #ebf5f0;
-}
-
 
 footer{
     width: 100%;
@@ -436,4 +373,173 @@ footer{
 
 #rights #p1{
     font-size: 10px;
+}
+
+/* MOBILE MEDIA QUERY */
+
+@media screen and (orientation: portrait) {
+    header{
+        height: 8vh;
+    }
+
+    nav *{
+        margin: 0;
+    }
+
+    #nav-left, #nav-right{
+        margin: 5%;
+    }
+
+    .menu-item, #unetebutton, #ingbutton, #localizar{
+        display: none;
+    }
+
+    #logo img{
+        width: 70%;
+        height: auto;
+    }
+
+    #menuimg{
+        display: flex;
+    }
+
+
+    /* login */
+    .logincontent{
+        flex-direction: column;
+    }
+
+    .containerfixed{
+        position: static;
+        width: 100%;
+        height: 15vh;
+    }
+    
+    .containerfixed h1{
+        font-size: 1.8rem;
+        text-align: initial;
+        margin: 0;
+    }
+
+    .containerscroll{
+        margin: 0;
+        width: 100%;
+    }
+
+    .logindiv{
+        padding: 10% 0;
+    }
+
+    .loginform{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .breaker{
+        box-sizing: border-box;
+        padding: 0 5%;
+    }
+
+    .unetecontainer{
+        padding: 2%;
+        margin-bottom: 3vh;
+    }
+
+    .unetecontainer p{
+        width: auto;
+        text-align: center;
+    }
+
+    .unetecontainer .wrapper{
+        flex-direction: column;
+        gap: 3vh;
+    }
+
+    .unetecontainer .wrapper img{
+        width: 100%;
+        height: auto;
+    }
+
+    .unetecontainer .wrapper a{
+        width: auto;
+        font-size: 1.2rem;
+        padding: 6% 9%;
+        text-align: center;
+        border: 1px solid #008248;
+        border-radius: 50px;
+        color: #008248;
+    }
+
+
+    /* FOOTER */
+
+    .upperfooter{
+        flex-direction: column;
+        padding: 2vh 3vw;
+    }
+
+    .footerlist ul{
+        display: none;
+    }
+
+    .footerlist div{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footerlist h3{
+        font-size: 1.05rem;
+    }
+
+    .dropdown{
+        display: flex;
+        height: 100%;
+        width: auto;
+        align-self: center;
+    }
+
+    .lowerfooter{
+        align-items: flex-start;
+    }
+
+    #refs{
+        flex-direction: column;
+        color: black;
+        line-height: 1;
+        font-size: 1rem;
+    }
+
+    #refs a{
+        margin: 0;
+        text-align: start;
+    }
+
+    #refs span{
+        display: none;
+    }
+
+    #rights{
+        color: #999;
+        line-height: 1.4;
+        margin-top: 5%;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: start;
+    }
+    
+    #rights #p1{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    
+    #rights #p2{
+        font-size: 10px;
+        margin: 0;
+    }
+    
 }

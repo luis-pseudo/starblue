@@ -100,5 +100,23 @@ al convertir una pagina a moviles es muy notable el cambio de flex-direction row
 ![css](https://i.imgur.com/arMxvaU.png)
 
 
+## commit "responsive menu done" (final para esta entrega)
+aqui por fin termine las 3 paginas responsivas, la ultima pagina de menu fue bastante facil de convertir como pensé, porque cuando la hice siento que la organice de una forma muy logica y use puras unidades de medida relativas, nada de pixeles ni cosas absolutas, entonces fue muy facil que la pagina se adaptara a la pantalla, los unicos ajustes que hice fueron cambiar algunos widths y heights y tamaños de fuente.
+
+### mi pagina:
+![mipag](https://i.imgur.com/77I2kKh.png)
+
+### pagina original:
+![pagoriginal](https://i.imgur.com/jRD33TD.png)
+
+### css:
+este css fue una cosita de nada, solo 30 lineas, lo que me pone muy contento porque me doy cuenta de lo que mejoré a comparacion de las otras 2 paginas que no las hice tan responsivas desde un principio
+![css](https://i.imgur.com/yXN09oL.png)
+
+## disclaimer!!
+al entrar en una vista de telefono las opciones de la navbar desaparecen y se van a un "menu lateral" que realmente no funciona porque no se hacerlo, asi que para navegar entre paginas habria que quitar la emulacion de la vista, cambiar de pagina y volver a activarla ya estando en la otra pagina.
+
+
 
 ![yo](https://i.imgur.com/QK7hmqa.jpeg)
+![yoagain](https://images-ext-1.discordapp.net/external/VhGyqtaXFNshw55Q4p2Bx-4zq0ZNyDr8hlaBeCZ1lfk/https/media.tenor.com/images/eb707bb9c16cce278309b806437de097/tenor.gif?width=92&height=112)

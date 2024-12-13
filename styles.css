@@ -759,6 +759,9 @@ footer{
         height: 55vh;
     }
 
+
+    /* FOOTER */
+
     .upperfooter{
         flex-direction: column;
         padding: 2vh 3vw;

@@ -156,5 +156,19 @@ en este commit agrego la media query para la pagina de login en  movil que fue m
 ![css](https://i.imgur.com/KZc8si2.png)
 
 
+## commit "register page added"
+aqui agrego la pagina de registro ya completa. esta fue muy facil porque tiene el mismo estilo que la de login asi que solo tuve que copiar y pegar, solo habia que cambiar un poco de info y listo
+al final del formulario no agregué las otras opicones como la fecha porque no supe hacerlo 😭 y recuerdo que nos habia dicho que no habia necesidad de que lo hicieramos por lo mismo
+
+### mi pagina
+![mipag](https://i.imgur.com/dkSAoWl.png)
+
+### pagina orignal
+![](https://i.imgur.com/6Ez5wh7.png)
+
+### css
+![css](https://i.imgur.com/ilBsbjd.png)
+
+
 ![yo](https://i.imgur.com/QK7hmqa.jpeg)
 ![yoagain](https://images-ext-1.discordapp.net/external/VhGyqtaXFNshw55Q4p2Bx-4zq0ZNyDr8hlaBeCZ1lfk/https/media.tenor.com/images/eb707bb9c16cce278309b806437de097/tenor.gif?width=92&height=112)

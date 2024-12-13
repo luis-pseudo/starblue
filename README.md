@@ -133,6 +133,11 @@ aqui agrego la pagina de login ya terminada, no fue muy dificil hacerla pero si 
 ![css](https://i.imgur.com/uC3FNDo.png)
 
 
+## commit "readme update"
+en el commit anterior se me olvido hacerle add a lo que agregue en el readme asi que este commit es solo para eso
+
+## commit "readme update again !!"
+otra vez se me olvido agregar lo del commit anterior xddd
 
 ![yo](https://i.imgur.com/QK7hmqa.jpeg)
 ![yoagain](https://images-ext-1.discordapp.net/external/VhGyqtaXFNshw55Q4p2Bx-4zq0ZNyDr8hlaBeCZ1lfk/https/media.tenor.com/images/eb707bb9c16cce278309b806437de097/tenor.gif?width=92&height=112)
